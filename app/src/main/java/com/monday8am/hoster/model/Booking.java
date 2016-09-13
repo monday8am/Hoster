@@ -12,4 +12,6 @@ public class Booking extends RealmObject {
     public Date startDate;
     public Date endDate;
     public Hostel house;
+    public Guest guest;
+
 }
