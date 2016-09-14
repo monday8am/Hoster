@@ -25,7 +25,7 @@ public class TimelineView implements TimelineContract.View {
     }
 
     @Override
-    public void showEvents(List<Booking> bookingList) {
+    public void showBookingList(List<Booking> bookingList) {
 
     }
 

@@ -16,6 +16,11 @@ public class TimelinePresenter implements TimelineContract.Presenter {
     }
 
     @Override
+    public void addHostel() {
+
+    }
+
+    @Override
     public void addBooking() {
 
     }

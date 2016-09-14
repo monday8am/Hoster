@@ -15,12 +15,14 @@ public interface TimelineContract {
 
         void setLoadingIndicator(boolean active);
 
-        void showEvents(List<Booking> bookingList);
+        void showBookingList(List<Booking> bookingList);
 
         boolean isActive();
     }
 
     interface Presenter extends BasePresenter {
+
+        void addHostel ();
 
         void addBooking();
 
