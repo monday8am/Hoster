@@ -1,5 +1,6 @@
 package com.monday8am.hoster;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.monday8am.hoster.flow.BasicDispatcher;
+import com.monday8am.hoster.flow.BasicKeyParceler;
+
+import flow.Flow;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,6 +47,17 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        newBase = Flow.configure(newBase, this) //
+                .dispatcher(new BasicDispatcher(this)) //
+                .defaultKey(new WelcomeScreen()) //
+                .keyParceler(new BasicKeyParceler()) //
+                .install();
+        super.attachBaseContext(newBase);
+
     }
 
     @Override
