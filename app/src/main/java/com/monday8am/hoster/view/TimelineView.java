@@ -1,4 +1,4 @@
-package com.monday8am.hoster.views;
+package com.monday8am.hoster.view;
 
 import android.support.annotation.NonNull;
 

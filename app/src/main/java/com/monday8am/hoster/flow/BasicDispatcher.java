@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.monday8am.hoster.R;
+import com.monday8am.hoster.view.AddHostelScreen;
+import com.monday8am.hoster.view.TimelineScreen;
 
 import flow.Dispatcher;
 import flow.Flow;
@@ -22,7 +24,7 @@ public class BasicDispatcher implements Dispatcher {
 
     private final Activity activity;
 
-    BasicDispatcher(Activity activity) {
+    public BasicDispatcher(Activity activity) {
         this.activity = activity;
     }
 
@@ -53,10 +55,10 @@ public class BasicDispatcher implements Dispatcher {
         }
 
         @LayoutRes final int layout;
-        if (destKey instanceof HelloScreen) {
-            layout = R.layout.hello_screen;
-        } else if (destKey instanceof WelcomeScreen) {
-            layout = R.layout.welcome_screen;
+        if (destKey instanceof TimelineScreen) {
+            layout = R.layout.content_timeline;
+        } else if (destKey instanceof AddHostelScreen) {
+            layout = R.layout.content_addhostel;
         } else {
             throw new AssertionError("Unrecognized screen " + destKey);
         }

@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import com.monday8am.hoster.flow.BasicDispatcher;
 import com.monday8am.hoster.flow.BasicKeyParceler;
+import com.monday8am.hoster.view.TimelineScreen;
 
 import flow.Flow;
 
@@ -53,11 +54,10 @@ public class MainActivity extends AppCompatActivity
     protected void attachBaseContext(Context newBase) {
         newBase = Flow.configure(newBase, this) //
                 .dispatcher(new BasicDispatcher(this)) //
-                .defaultKey(new WelcomeScreen()) //
+                .defaultKey(new TimelineScreen()) //
                 .keyParceler(new BasicKeyParceler()) //
                 .install();
         super.attachBaseContext(newBase);
-
     }
 
     @Override
