@@ -33,7 +33,7 @@ public class BasicDispatcher implements Dispatcher {
         Log.d("BasicDispatcher", "dispatching " + traversal);
         Object destKey = traversal.destination.top();
 
-        ViewGroup frame = (ViewGroup) activity.findViewById(R.id.basic_activity_frame);
+        ViewGroup frame = (ViewGroup) activity.findViewById(R.id.main_activity_frame);
 
         // We're already showing something, clean it up.
         if (frame.getChildCount() > 0) {
