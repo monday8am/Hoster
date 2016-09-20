@@ -70,7 +70,5 @@ public class BasicDispatcher implements Dispatcher {
         traversal.getState(traversal.destination.top()).restore(incomingView);
 
         callback.onTraversalCompleted();
-
-
     }
 }

@@ -3,11 +3,13 @@ package com.monday8am.hoster.view;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.RelativeLayout;
 
 import com.monday8am.hoster.model.Booking;
 import com.monday8am.hoster.presenter.TimelineContract;
 
+import java.io.Console;
 import java.util.List;
 
 import flow.Flow;
@@ -26,7 +28,8 @@ public class TimelineView extends RelativeLayout implements TimelineContract.Vie
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        TimelineScreen screen = Flow.getKey(this);
+        //TimelineScreen screen = Flow.getKey(this);
+        Log.e("flow", "aloha!!!!");
     }
 
     @Override
