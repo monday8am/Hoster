@@ -1,4 +1,4 @@
-package com.monday8am.hoster.presenter;
+package com.monday8am.hoster.addhostel;
 
 import com.monday8am.hoster.BasePresenter;
 import com.monday8am.hoster.BaseView;

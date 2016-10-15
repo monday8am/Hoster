@@ -1,4 +1,4 @@
-package com.monday8am.hoster.presenter;
+package com.monday8am.hoster.addhostel;
 
 /**
  * Created by anton on 11/09/16.
@@ -16,7 +16,7 @@ public class AddHostelPresenter implements AddHostelContract.Presenter {
     }
 
     @Override
-    public void unsubscribe() {
+    public void unSubscribe() {
 
     }
 }

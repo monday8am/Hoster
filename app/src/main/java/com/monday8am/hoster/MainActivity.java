@@ -16,7 +16,7 @@ import android.view.MenuItem;
 
 import com.monday8am.hoster.flow.BasicDispatcher;
 import com.monday8am.hoster.flow.BasicKeyParceler;
-import com.monday8am.hoster.view.TimelineScreen;
+import com.monday8am.hoster.timeline.TimelineScreen;
 
 import flow.Flow;
 

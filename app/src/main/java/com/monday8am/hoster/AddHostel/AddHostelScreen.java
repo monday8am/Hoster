@@ -1,7 +1,9 @@
-package com.monday8am.hoster.view;
+package com.monday8am.hoster.addhostel;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+
+import com.monday8am.hoster.timeline.TimelineScreen;
 
 /**
  * Created by anton on 16/09/16.

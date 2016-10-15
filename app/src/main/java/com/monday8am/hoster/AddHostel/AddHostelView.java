@@ -1,10 +1,8 @@
-package com.monday8am.hoster.view;
+package com.monday8am.hoster.addhostel;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
-
-import com.monday8am.hoster.presenter.AddHostelContract;
 
 import flow.Flow;
 

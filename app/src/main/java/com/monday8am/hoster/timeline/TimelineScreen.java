@@ -1,4 +1,4 @@
-package com.monday8am.hoster.view;
+package com.monday8am.hoster.timeline;
 
 import android.os.Parcel;
 import android.os.Parcelable;

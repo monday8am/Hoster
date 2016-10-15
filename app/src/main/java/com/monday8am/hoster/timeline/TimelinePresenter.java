@@ -1,4 +1,4 @@
-package com.monday8am.hoster.presenter;
+package com.monday8am.hoster.timeline;
 
 /**
  * Created by anton on 13/09/16.
@@ -11,7 +11,7 @@ public class TimelinePresenter implements TimelineContract.Presenter {
     }
 
     @Override
-    public void unsubscribe() {
+    public void unSubscribe() {
 
     }
 

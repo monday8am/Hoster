@@ -1,4 +1,4 @@
-package com.monday8am.hoster.view;
+package com.monday8am.hoster.timeline;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -7,12 +7,8 @@ import android.util.Log;
 import android.widget.RelativeLayout;
 
 import com.monday8am.hoster.model.Booking;
-import com.monday8am.hoster.presenter.TimelineContract;
 
-import java.io.Console;
 import java.util.List;
-
-import flow.Flow;
 
 /**
  * Created by anton on 12/09/16.

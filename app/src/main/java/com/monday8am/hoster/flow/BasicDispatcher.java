@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.monday8am.hoster.R;
-import com.monday8am.hoster.view.AddHostelScreen;
-import com.monday8am.hoster.view.TimelineScreen;
+import com.monday8am.hoster.addhostel.AddHostelScreen;
+import com.monday8am.hoster.timeline.TimelineScreen;
 
 import flow.Dispatcher;
 import flow.Flow;
