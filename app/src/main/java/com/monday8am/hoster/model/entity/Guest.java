@@ -1,4 +1,4 @@
-package com.monday8am.hoster.model;
+package com.monday8am.hoster.model.entity;
 
 import io.realm.RealmObject;
 

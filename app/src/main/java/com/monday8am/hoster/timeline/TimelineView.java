@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.RelativeLayout;
 
-import com.monday8am.hoster.model.Booking;
+import com.monday8am.hoster.model.entity.Booking;
 
 import java.util.List;
 

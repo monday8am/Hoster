@@ -2,7 +2,7 @@ package com.monday8am.hoster.timeline;
 
 import com.monday8am.hoster.BasePresenter;
 import com.monday8am.hoster.BaseView;
-import com.monday8am.hoster.model.Booking;
+import com.monday8am.hoster.model.entity.Booking;
 
 import java.util.List;
 
